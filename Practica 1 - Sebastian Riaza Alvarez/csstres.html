@@ -1,0 +1,53 @@
+<div class="circle">
+    <div class="rect top-left"></div>
+    <div class="bottom-left rect"></div>
+     <div class="bottom-right rect"></div>
+  </div>
+  <style>
+  *{
+  box-sizing:border-box;
+}
+body{
+    margin:0;
+    min-height:100vh;
+    background:#E3516E;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+
+ .circle{
+    width: 200px;
+    height: 200px;
+    background: #FADE8B;
+   border-radius:50%;
+   position:relative;
+
+   
+  }
+  .rect{
+    position:absolute;
+    width: 50%;
+    height: 50%;
+    background: #51B5A9;
+       
+  }
+  .top-left{
+          border-radius:150% 0 0% 0%;
+  }
+    .bottom-left{
+      background: #F7F3D7;
+      top:50%;
+      border-radius:0% 0 0% 150%;
+      
+      
+  } 
+  .bottom-right{
+   background: #E3516E;
+    top:50%;
+    right:0px;
+    
+    
+  }
+  
+  </style>

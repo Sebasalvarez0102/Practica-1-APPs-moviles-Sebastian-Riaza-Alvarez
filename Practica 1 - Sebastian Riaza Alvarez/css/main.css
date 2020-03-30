@@ -1,0 +1,59 @@
+* {
+    margin:0px;
+    padding:0px;
+    background-color: #287233; 
+}
+#Portada{
+    width: 1348px;
+    height:700px;
+}
+
+#header {
+    margin-left: 200px;
+    width:1200px;
+    
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li a {
+    background-color: #287233;
+    color: #000;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav li a:hover {
+    background-color: #fdfdfd;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+.p{
+    font-family: 'Open Sans', sans-serif;
+}
